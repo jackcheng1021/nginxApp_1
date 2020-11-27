@@ -1,0 +1,5 @@
+
+
+FROM server01:5000/nginx:latest
+
+echo "<h1>this is nginx demo</h1>" > /usr/share/nginx/html/index.html
